@@ -10,14 +10,14 @@
 /// how far can you go? (hint: you can go to a distance and come back to another bike and you can full a tank using other bike's tank)
 
 // number of bikes
-num x = 50; //for example
+int x = 50; //for example
 
 // distance each bike can travel using a full tank
 num d = 100; // in kilometers
 
 void main() {
 
-    final simulation = Simulation(x.toInt(),d,10);
+    final simulation = Simulation(x,d,10);
     simulation.run();
 
 }
